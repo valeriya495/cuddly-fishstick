@@ -2,10 +2,99 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Learning FRONTEND</title>
+    <meta name="keywords" content="Vicheslav Panov, Frontend, resume" />
+    <meta name="description" content="Это страница - резюме Вячеслава Панова" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Viacheslav Panov Resume Frontend</title>
   </head>
   <body>
-    1
+    <div class="container">
+      <header class="header">
+        <img src="katok-avatar.jpg" alt="Моя фотография" class="avatar" />
+      </header>
+      <section class="offer">
+        <div class="card">
+          <h1 class="card_title">Вячеслав Панов</h1>
+          <p class="card_text">Я начинающий <span>Frontend-разработчик</span>, который стремится стать Fullstack.</p>
+          <p class="card_text">Люблю <span>путешествовать, заниматься спортом и программированием.</span></p>
+        </div>
+        <h2 class="card_subtitle">Мои помощники</h2>
+        <div class="helpers">
+          <a href="https://www.google.com" target="_blank">Google</a>
+          |
+          <a href="https://www.ya.ru" target="_blank">Yandex</a>
+          |
+          <a href="https://www.youtube.com" target="_blank">Youtube</a>
+        </div>
+        <div class="hobby">
+          <h2 class="hobby_title">Мои хобби</h2>
+
+          <ul class="hobby_list">
+            <li class="hobby_items">Путешествия</li>
+            <li class="hobby_items">Автомобили</li>
+            <li class="hobby_items">Горные лыжи</li>
+            <li class="hobby_items">Бизнес</li>
+          </ul>
+        </div>
+        <div class="skills">
+          <h2 class="skills_title">Опыт работы</h2>
+          <table>
+            <tbody>
+              <tr>
+                <td>LPTracker</td>
+                <td>Frontend</td>
+                <td>2015-2016</td>
+              </tr>
+              <tr>
+                <td>EPAM</td>
+                <td>Software Engineer</td>
+                <td>2016-2017</td>
+              </tr>
+              <tr>
+                <td>Software Outsourcing Services</td>
+                <td>Senior Frontend</td>
+                <td>2017-2019</td>
+              </tr>
+              <tr>
+                <td>Youtube</td>
+                <td>Blogger</td>
+                <td>2019 - сейчас</td>
+              </tr>
+              <tr>
+                <td>Result School</td>
+                <td>CEO</td>
+                <td>2021 - сейчас</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <h2 class="footer_title">Связаться со мной</h2>
+
+        <form action="/" class="callback">
+          <div class="name">
+            <label for="name">Ваше имя:</label>
+            <input type="text" id="name" placeholder="Введите имя" />
+          </div>
+
+          <div class="email">
+            <label for="email">Ваш email:</label>
+            <input type="email" id="email" placeholder="Введите email" />
+          </div>
+
+          <div class="message">
+            <label for="message">Ваше сообщение:</label>
+            <br />
+            <textarea id="message" cols="20" rows="5" placeholder="Введите сообщение..."></textarea>
+          </div>
+
+          <input type="submit" value="Отправить!" class="btn" />
+        </form>
+      </footer>
+    </div>
   </body>
 </html>

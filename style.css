@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100..900&display=swap');
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+  font-family: 'Montserrat', 'Roboto', sans-serif;
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+
+.container {
+  margin: 0 auto;
+  max-width: 1080px;
+}
+
+.header {
+  margin-top: 20px;
+}
+
+.avatar {
+  width: 200px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.card {
+  margin-bottom: 30px;
+}
+
+.card_title {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card_text span{
+  font-weight: bold;
+}
+
+.card_text {
+  margin-bottom: 10px;
+}
+
+.card p:last-child {
+  margin-bottom: 0;
+}
+
+.card_subtitle {
+  margin-bottom: 8px;
+}
+
+.helpers {
+  margin-bottom: 30px;
+}
+
+.hobby {
+margin-bottom: 30px;
+}
+
+.hobby_title {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.hobby_list {
+  display: flex;
+}
+
+.hobby_items {
+  margin-right: 20px;
+}
+
+.skills {
+  background: #eee;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.skills_title {
+  font-weight: bold;
+}
+
+table td {
+  width: 550px;
+
+}
+
+.offer {
+  margin-bottom: 50px;
+}
+
+.footer_title {
+  font-weight: bold;
+}
+
+.callback {
+  display: block;
+}
+
+.footer_title {
+  margin-bottom: 10px;
+}
+
+.footer input, textarea {
+  border: 1px solid grey;
+}
+
+.name, .message, .email {
+  margin-bottom: 10px;
+}
+
+.footer {
+  padding-bottom: 50px;
+}
